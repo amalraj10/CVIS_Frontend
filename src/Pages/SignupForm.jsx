@@ -73,7 +73,7 @@ const SignupForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle signup form submission
+   
   };
 
   return (
@@ -163,6 +163,7 @@ const SignupForm = () => {
               onChange={handleChange}
             />
             <Button
+            style={{ backgroundColor: '#218b7a' }}
             onClick={handleRegister}
               type="submit"
               fullWidth
@@ -172,7 +173,7 @@ const SignupForm = () => {
               Sign Up
             </Button>
             <Box>
-              <Link to="/" variant="body2">
+              <Link style={{ color: '#218b7a' }} to="/" variant="body2">
                 Already have an account? Sign in
               </Link>
             </Box>

@@ -151,7 +151,7 @@ function Home() {
               </Link>
               <Card.Body>
                 <Card.Text style={{ textDecoration: 'none' }}>
-                  To seamlessly complete your form, simply click on the card provided.
+                  To seamlessly complete your form, simply  "click" on the card provided.
                 </Card.Text>
               </Card.Body>
             </Card>

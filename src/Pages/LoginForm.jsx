@@ -72,7 +72,7 @@ const LoginForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle login form submission
+    
   };
 
   return (
@@ -121,6 +121,7 @@ const LoginForm = () => {
               label="Remember me"
             />
             <Button
+            style={{ backgroundColor: '#218b7a' }}
               type="submit"
               fullWidth
               variant="contained"
@@ -132,7 +133,7 @@ const LoginForm = () => {
             <Grid container>
              
               <Grid item>
-                <Link to="/signup" variant="body2">
+                <Link style={{ color: '#218b7a' }} to="/signup" variant="body2">
                   {"Don't have an account? Sign Up"}
                 </Link>
               </Grid>

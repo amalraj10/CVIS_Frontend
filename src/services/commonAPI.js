@@ -1,4 +1,4 @@
-//import axios
+
 import axios from "axios";
 
 export const commonAPI = async(httprequest,url,reqBody,reqHeader)=>{
